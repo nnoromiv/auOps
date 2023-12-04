@@ -20,7 +20,7 @@ const Navbar = () => {
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
                         {
                             navigation.map((nav, index) => (
-                                <li key={index}>
+                                <li key={index} className="py-3">
                                     <Link href={nav.link} className=" text-xl font-semibold">
                                         {nav.title}
                                     </Link>
