@@ -48,7 +48,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end lg:hidden">
-                <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white"/>
+                <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white mr-2"/>
             </div>
         </div>
     </header>
