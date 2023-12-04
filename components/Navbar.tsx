@@ -17,7 +17,7 @@ const Navbar = () => {
                             alt="Menu"
                         />
                     </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box w-52">
                         {
                             navigation.map((nav, index) => (
                                 <li key={index} className="py-3">
@@ -44,11 +44,11 @@ const Navbar = () => {
                             </li>
                         ))
                     }
-                    <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white"/>
+                    <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white border-none"/>
                 </ul>
             </div>
             <div className="navbar-end lg:hidden">
-                <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white mr-2"/>
+                <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white mr-2 border-none"/>
             </div>
         </div>
     </header>

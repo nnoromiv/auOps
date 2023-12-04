@@ -8,7 +8,7 @@ const CustomButton = ({linkURL, customButtonStyles, isDisabled, btnType, title} 
         href={linkURL || "/"}
         className='flex justify-center items-center'>
             <button 
-                className={`btn border-none ${customButtonStyles}`}
+                className={`btn border border-solid border-white ${customButtonStyles}`}
                 disabled={isDisabled}
                 type={ btnType || "button"}
             >
