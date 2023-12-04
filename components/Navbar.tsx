@@ -17,11 +17,11 @@ const Navbar = () => {
                             alt="Menu"
                         />
                     </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box w-52">
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-white rounded-box w-52">
                         {
                             navigation.map((nav, index) => (
                                 <li key={index} className="py-3">
-                                    <Link href={nav.link} className=" text-xl font-semibold">
+                                    <Link href={nav.link} className="text-xl text-secondary-color font-semibold">
                                         {nav.title}
                                     </Link>
                                 </li>
