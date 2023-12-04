@@ -6,15 +6,28 @@ const config: Config = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  mode: "jit",
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        inter: ["Inter", "sans-serif"]
       },
+      colors: {
+        "gray-100": "#777777",
+        "primary-color": {
+          default: "#0FABBE",
+          100: "#FFFFFF"
+        },
+        "orange-100": "#EF7437",
+        "secondary-color": "#444444",
+        "bg-wrapper-100": "#3B668C",
+        "bg-wrapper-200": "#282B30"
+      },
+      backgroundImage : {
+        'hero.bg': "url('/Hero.jpg')"
+      }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 export default config
