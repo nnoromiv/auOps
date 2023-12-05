@@ -6,7 +6,7 @@ import Link from "next/link"
 const Navbar = () => {
   return (
     <header className="w-full">
-        <div className="navbar bg-primary-color-100 lg:px-24">
+        <div className="navbar fixed glass z-10 lg:px-24">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -17,11 +17,11 @@ const Navbar = () => {
                             alt="Menu"
                         />
                     </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-white rounded-box w-52">
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow glass bg-black bg-opacity-95 rounded-box w-52">
                         {
                             navigation.map((nav, index) => (
                                 <li key={index} className="py-3">
-                                    <Link href={nav.link} className="text-xl text-secondary-color font-semibold">
+                                    <Link href={nav.link} className="text-xl text-white font-semibold">
                                         {nav.title}
                                     </Link>
                                 </li>
