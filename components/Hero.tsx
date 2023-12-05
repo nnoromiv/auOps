@@ -1,7 +1,6 @@
-import { CustomButton } from '@/components'
+import { CarouselComponent, CustomButton } from '@/components'
 import { carousel_information } from '@/constants'
 import { PlayIcon } from '@heroicons/react/24/outline'
-import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -21,18 +20,7 @@ const Hero = () => {
       <h2 className='mt-16 text-5xl font-extrabold text-white max-sm:text-3xl'>
         Accelerate your digital transformation with DevOps in AWS, Google Cloud, Azure, Kubernetes, on-premise, serverless and more!
       </h2>
-        {
-          carousel_information.slice(1,2).map((quotes, index) => (
-            <div className="text-3xl mt-10" key={index}>
-              <h1 className='text-white'>{quotes.quote}</h1>
-              <div className='mt-16 flex items-center gap-5 mb-40 max-sm:mb-16'>
-              <Image src={quotes.image} alt='quote logo' width={60} height={60} className='rounded-full' />
-              <span className='text-white text-lg font-bold'>{quotes.company}</span>
-              </div>
-          </div>
-
-          ))
-        }
+      <CarouselComponent slides={carousel_information}/>
       <div className='lg:hidden md:hidden max-sm:flex max-sm:mb-28'>
           <CustomButton title='Contact Us' btnType='button' customButtonStyles='bg-primary-color-default text-white border-none rounded-full px-10'/>
       </div>

@@ -1,3 +1,4 @@
+import CarouselComponent from "./CarouselComponent";
 import CustomButton from "./CustomButton";
 import Hero from "./Hero";
 import Information from "./Information";
@@ -13,5 +14,6 @@ export {
     Hero,
     Information,
     information,
-    Partner
+    Partner,
+    CarouselComponent
 }

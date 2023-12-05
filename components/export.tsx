@@ -1,6 +1,7 @@
 
-import { ClockIcon, HandThumbUpIcon, LockClosedIcon, ScaleIcon, UsersIcon } from '@heroicons/react/24/outline'
+import { ClockIcon, HandThumbUpIcon, LockClosedIcon, ScaleIcon, UsersIcon, CodeBracketIcon, UserIcon, WindowIcon } from '@heroicons/react/24/outline'
 import { ArrowDownLeftIcon } from '@heroicons/react/24/solid'
+
 
 export const information = [
     {
@@ -33,4 +34,31 @@ export const information = [
         title: "Security",
         text: "Control practices and management techniques guarantee information security."
     },
+]
+
+export const partner_information = [
+    {
+        icon: <ClockIcon className='w-10 h-10'/> ,
+        number: '100,000',
+        superScript: 'h',
+        text: 'Hours invested in work',
+    },
+    {
+        icon: <UserIcon className='w-10 h-10'/> ,
+        number: '500',
+        superScript: '+',
+        text: 'Clients',
+    },
+    {
+        icon: <CodeBracketIcon className='w-10 h-10'/> ,
+        number: '50',
+        superScript: '+',
+        text: 'Active projects',
+    },
+    {
+        icon: <WindowIcon className='w-10 h-10'/>,
+        number: '530',
+        superScript: '+',
+        text: 'Accomplished projects',
+    }
 ]

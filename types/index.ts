@@ -1,4 +1,5 @@
-import React from "react";
+import { EmblaOptionsType } from "embla-carousel-react"
+
 export interface CustomButtonProps {
     linkURL?: any,
     customButtonStyles?: string,
@@ -6,4 +7,16 @@ export interface CustomButtonProps {
     btnType?: "button" | "submit",
     title?: string,
     icon?: any
+}
+
+interface slidesProps {
+    quote: string;
+    company: string;
+    image: string;
+    nextSlide: number;
+}
+
+export type CarouselComponentProps = {
+    slides: slidesProps[],
+    options?: EmblaOptionsType
 }
