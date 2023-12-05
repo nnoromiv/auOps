@@ -44,11 +44,11 @@ const Navbar = () => {
                             </li>
                         ))
                     }
-                    <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white border-none"/>
+                    <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white border-none rounded-full"/>
                 </ul>
             </div>
             <div className="navbar-end lg:hidden">
-                <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white mr-2 border-none"/>
+                <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white mr-2 border-none rounded-full"/>
             </div>
         </div>
     </header>
