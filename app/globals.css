@@ -10,6 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -40,4 +41,9 @@
   min-width: 0;
   padding-left: var(--slide-spacing);
   position: relative;
+}
+
+.loading-xl {
+  height: 100vh !important;
+  width: 50vw !important;
 }

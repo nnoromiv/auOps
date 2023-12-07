@@ -1,16 +1,35 @@
-import { Clients, Footer, Hero, Information, Partner, Services, Team } from '@/components'
-import React from 'react'
+"use client"
+import { Clients, Footer, Hero, Information, Navbar, Partner, Services, Team } from '@/components'
+import React, { useEffect, useState } from 'react'
+import Loading from './loading'
 
 export default function Home() {
+  const [load, setLoad] = useState(true)
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoad(false)
+    }, 2000)
+    return () => clearTimeout(timer)
+  }, [])
+  
   return (
     <main>
-      <Hero />
-      <Information />
-      <Partner />
-      <Clients />
-      <Team />
-      <Services />
-      <Footer />
+      <Loading load={load}/>
+      {
+        !load &&
+        <>
+          <Navbar toBeActive='/' />
+          <Hero />
+          <Information />
+          <Partner />
+          <Clients />
+          <Team />
+          <Services />
+          <Footer />
+        </>
+      }
+
     </main>
   )
 }

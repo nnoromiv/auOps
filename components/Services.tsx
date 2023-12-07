@@ -1,11 +1,11 @@
 import { UserIcon } from '@heroicons/react/24/outline'
 import React from 'react'
-import { CustomButton } from '.'
+import { CustomButton, Navbar } from '.'
 import { service_information, service_offering } from './export'
 
 const Services = () => {
   return (
-    <div>
+    <div id='services'>
         <div className="relative text-center" style={{ backgroundImage: "url('/Fas.jpg')"}}>
             <div className="absolute opacity-70 inset-0 bg-bg-wrapper-100"></div>
             <div className="relative">
@@ -27,10 +27,10 @@ const Services = () => {
                     }
                 </div>
             </div>
-        </div>
+        N</div>
 
         <div className="px-32 py-20 md:px-12 max-sm:px-5 max-sm:py-10">
-            <h1 className='text-gray-700 font-bold text-5xl mb-24 w-[40vw] md:w-[80vw] max-sm:text-3xl max-sm:w-full max-sm:mb-10'>We offer the best in technology and support</h1>
+            <h1 className='text-gray-700 font-bold text-5xl mb-24 lg:w-[40vw] md:w-[80vw] max-sm:text-3xl max-sm:w-full max-sm:mb-10'>We offer the best in technology and support</h1>
             <p className='font-normal w-[79vw] max-sm:w-full'>
                 EZOps does not only offer outsourcing but a team of specialized professionals who are capable of applying all the experience of over 5 years of business to your needs. We have DevOps Developers, specialized in most platforms; SysOps DevOps who are responsible for the operation, and DevOps architects – all of them with a huge infrastructure archive at their disposal, speeding up the delivery and increasing the quality of the projects.
             </p>

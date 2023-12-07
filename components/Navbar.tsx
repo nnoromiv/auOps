@@ -1,11 +1,15 @@
+"use client";
 import Image from "next/image"
 import { CustomButton } from "."
 import { navigation } from "@/constants"
 import Link from "next/link"
+import { useState } from "react"
+import { NavbarProps } from "@/types";
 
-const Navbar = () => {
+const Navbar = ({ toBeActive }: NavbarProps) => {
+    const [active, setActive] = useState("")
   return (
-    <header className="w-full">
+    <header className="w-full" onLoad={(e) => {e.preventDefault; setActive(toBeActive)}}>
         <div className="navbar fixed glass z-10 lg:px-24">
             <div className="navbar-start">
                 <div className="dropdown">
@@ -34,17 +38,25 @@ const Navbar = () => {
                 </a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-xl text-secondary-color font-semibold">
+                <ul className="menu menu-horizontal px-1 text-xl text-black font-semibold" >
                     {
                         navigation?.map((nav, index) => (
+                            nav.link === toBeActive 
+                            ?
+                            <li  className="text-white" key={index}>
+                                <Link href={nav.link} >
+                                    {nav.title}
+                                </Link>
+                            </li>
+                            :
                             <li key={index}>
-                                <Link href={nav.link}>
+                                <Link href={nav.link} >
                                     {nav.title}
                                 </Link>
                             </li>
                         ))
                     }
-                    <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white border-none rounded-full"/>
+                    <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white border-none rounded-full px-10"/>
                 </ul>
             </div>
             <div className="navbar-end lg:hidden">
