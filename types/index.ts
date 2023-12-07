@@ -1,7 +1,8 @@
 import { EmblaOptionsType } from "embla-carousel-react"
 
 export interface NavbarProps {
-    toBeActive: string
+    toBeActive: string,
+    startIndex?: number | 0,
 }
 export interface CustomButtonProps {
     linkURL?: any,

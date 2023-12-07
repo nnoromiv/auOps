@@ -5,12 +5,12 @@ import { Footer, Navbar } from "@/components"
 import { Accelerate, Hero, HiringProcess, Team } from "@/components/about"
 
 export default function About() {
-    const [load, setLoad] = useState(false)
+    const [load, setLoad] = useState(true)
   
     useEffect(() => {
       const timer = setTimeout(() => {
         setLoad(false)
-      }, 2000)
+      }, 1000)
       return () => clearTimeout(timer)
     }, [])
     
@@ -20,7 +20,7 @@ export default function About() {
         {
           !load &&
           <>
-            <Navbar toBeActive='/about' />
+            <Navbar toBeActive='/about' startIndex={2} />
             <Hero />
             <Accelerate />
             <Team />

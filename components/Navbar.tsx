@@ -6,8 +6,9 @@ import Link from "next/link"
 import { useState } from "react"
 import { NavbarProps } from "@/types";
 
-const Navbar = ({ toBeActive }: NavbarProps) => {
+const Navbar = ({ toBeActive, startIndex }: NavbarProps) => {
     const [active, setActive] = useState("")
+
   return (
     <header className="w-full" onLoad={(e) => {e.preventDefault; setActive(toBeActive)}}>
         <div className="navbar fixed glass z-10 lg:px-24">
@@ -21,8 +22,43 @@ const Navbar = ({ toBeActive }: NavbarProps) => {
                             alt="Menu"
                         />
                     </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow glass bg-black bg-opacity-95 rounded-box w-52">
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow glass bg-black bg-opacity-95 rounded-box w-52">                        
                     {
+                        startIndex ?
+                        <>
+                        {navigation?.slice(0,startIndex).map((nav, index) => (
+                            nav.link === toBeActive 
+                            ?
+                            <li key={index} className="py-3">
+                                <Link href={nav.link} className="text-xl text-black font-semibold">
+                                    {nav.title}
+                                </Link>
+                            </li>
+                            :
+                            <li key={index} className="py-3">
+                                <Link href={nav.link} className="text-xl text-white font-semibold">
+                                    {nav.title}
+                                </Link>
+                            </li>
+                        ))}
+                        {
+                          navigation?.slice(startIndex + 1, ).map((nav, index) => (
+                            nav.link === toBeActive 
+                            ?
+                            <li key={index} className="py-3">
+                                <Link href={nav.link} className="text-xl text-black font-semibold">
+                                    {nav.title}
+                                </Link>
+                            </li>
+                            :
+                            <li key={index} className="py-3">
+                                <Link href={nav.link} className="text-xl text-white font-semibold">
+                                    {nav.title}
+                                </Link>
+                            </li>
+                        ))}
+                        </>
+                        :
                         navigation?.map((nav, index) => (
                             nav.link === toBeActive 
                             ?
@@ -49,6 +85,40 @@ const Navbar = ({ toBeActive }: NavbarProps) => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-xl text-black font-semibold" >
                     {
+                        startIndex ?
+                        <>
+                        {navigation?.slice(0, startIndex).map((nav, index) => (
+                            nav.link === toBeActive 
+                            ?
+                            <li key={index} className="py-3">
+                                <Link href={nav.link} className="text-xl text-black font-semibold">
+                                    {nav.title}
+                                </Link>
+                            </li>
+                            :
+                            <li key={index} className="py-3">
+                                <Link href={nav.link} className="text-xl text-white font-semibold">
+                                    {nav.title}
+                                </Link>
+                            </li>
+                        ))}
+                        {navigation?.slice(startIndex +  1, ).map((nav, index) => (
+                            nav.link === toBeActive 
+                            ?
+                            <li key={index} className="py-3">
+                                <Link href={nav.link} className="text-xl text-black font-semibold">
+                                    {nav.title}
+                                </Link>
+                            </li>
+                            :
+                            <li key={index} className="py-3">
+                                <Link href={nav.link} className="text-xl text-white font-semibold">
+                                    {nav.title}
+                                </Link>
+                            </li>
+                        ))}
+                        </>
+                        :
                         navigation?.map((nav, index) => (
                             nav.link === toBeActive 
                             ?
