@@ -1,6 +1,6 @@
 import { team_images } from "@/constants"
 import Image from "next/image"
-import { CustomButton } from "."
+import { CustomButton } from ".."
 
 const Team = () => {
   return (
@@ -8,10 +8,15 @@ const Team = () => {
         <h1 className='text-5xl font-extrabold text-gray-700 mb-10'>Our team</h1>
         <div className="divider divider-primary w-[70px] m-auto"></div>
         <p className="mt-10 w-[50vw] md:w-[90vw] max-sm:w-[80vw] m-auto text-gray-100 text-lg">
-            We have a team of in-cloud DevOps experts who have a deep understanding of the AWS platform and other tools – such as Jenkins/Docker – that automate systems with thorough security and utter efficiency.
+            We take care of what you need in technology so your team can focus on developing your product.
+        </p>
+        <p className="mt-10 w-[50vw] md:w-[90vw] max-sm:w-[80vw] m-auto text-gray-100 text-lg">
+            Looking forward to guaranteeing a competitive advantage?
         </p>
 
-        <div className="drawer drawer-end w-[80vw] md:w-[90vw] grid grid-cols-1 lg:grid-cols-3 gap-x-5 gap-y-5 mt-10 m-auto">
+        <CustomButton title='Join us' btnType='button' customButtonStyles='bg-orange-100 text-white border-none rounded-full px-10 mt-20'/>
+
+        <div className="drawer drawer-end w-[80vw] md:w-[90vw] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-5 gap-y-5 mt-10 m-auto pb-10">
             {
                 team_images?.map((team, index) => (
                     <div key={index}  className="overflow-hidden">
@@ -49,7 +54,6 @@ const Team = () => {
             }
         
         </div>
-        <CustomButton title='Take a look at the full team.' btnType='button' customButtonStyles='rounded-full my-24  bg-primary-color-default text-white border-none px-24 max-sm:px-10'/>
     </div>
   )
 }

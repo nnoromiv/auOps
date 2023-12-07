@@ -1,5 +1,5 @@
 
-import { ClockIcon, HandThumbUpIcon, LockClosedIcon, ScaleIcon, UsersIcon, CodeBracketIcon, UserIcon, WindowIcon, CodeBracketSquareIcon } from '@heroicons/react/24/outline'
+import { ClockIcon, HandThumbUpIcon, LockClosedIcon, ScaleIcon, UsersIcon, CodeBracketIcon, UserIcon, WindowIcon, CodeBracketSquareIcon, TagIcon, EyeIcon, HeartIcon, CheckIcon, ShieldCheckIcon, LightBulbIcon, FlagIcon, LinkIcon, AcademicCapIcon, BookmarkIcon } from '@heroicons/react/24/outline'
 import { ArrowDownLeftIcon } from '@heroicons/react/24/solid'
 
 
@@ -108,5 +108,61 @@ export const service_offering = [
     {
         title: "Easily fits in your pocket",
         text: "Costs that fit within your budget.",
+    },
+]
+
+export const about_hero_information = [
+    {
+        icon: <TagIcon className='w-20 h-20' color='white' />,
+        title: "Mission",
+        text: "To accelerate the digital transformation of startups and any other companies, based on the cloud DevOps culture, ensuring large-scale automated solutions, data protection, and a superb customer experience, increasing performance and results.",
+    },
+    {
+        icon: <EyeIcon  className='w-20 h-20' color='white' />,
+        title: "Vision",
+        text: "We aim to be a solid, profitable, attractive company for employees and a worldwide reference in the implementation of the cloud DevOps culture, and to be recognized for the efficiency and appraisal generated for our clients’ business.",
+    },
+    {
+        icon: <HeartIcon className='w-20 h-20' color='white' />,
+        title: "Values",
+        text: "Our company is a reflection of everything we believe. We look for employees and partners with the same beliefs as us. For it is the only way we grow within the pillars of ethics and sustainability.",
+    }
+]
+
+export const about_offering = [
+    {
+        icon: <CheckIcon className='w-10' color='#0FABBE' />,
+        title: "Trust",
+        text: "Transparency and trust in relationships with customers, employees and partners.",
+    },
+    {
+        icon: <ShieldCheckIcon className='w-10' color='#0FABBE' />,
+        title: "Protection",
+        text: "Extra care to protect customer data, keeping information classified and secure in the system.",
+    },
+    {
+        icon: <FlagIcon className='w-10' color='#0FABBE' />,
+        title: "Speed",
+        text: "Automation of tools, systems and processes, guaranteeing quick operations and workflow.",
+    },
+    {
+        icon: <LightBulbIcon className='w-10' color='#0FABBE' />,
+        title: "Knowledge",
+        text: "A DevOps team with high technical knowledge and eagerness for new discoveries.",
+    },
+    {
+        icon: <LinkIcon className='w-10' color='#0FABBE' />,
+        title: "Integration",
+        text: "Connecting people and systems ensuring resource optimization and high performance. ",
+    },
+    {
+        icon: <AcademicCapIcon className='w-10' color='#0FABBE' />,
+        title: "Transformation",
+        text: "To innovate and to transform society's experience through technology. ",
+    },
+    {
+        icon: <BookmarkIcon className='w-10' color='#0FABBE' />,
+        title: "Availability",
+        text: "We are 24h on so that customers never go off.",
     },
 ]

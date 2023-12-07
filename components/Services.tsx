@@ -13,7 +13,7 @@ const Services = () => {
                 <p className="mt-10 w-[50vw] md:w-[90vw] max-sm:w-[80vw] m-auto text-white text-lg">
                     We have a portfolio of distinguished services in order to meet your particular needs.
                 </p>
-                <div className="w-[80vw] m-auto my-20 gap-20 grid grid-cols-1 lg:grid-cols-3">
+                <div className="w-[80vw] m-auto my-20 gap-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     {
                         service_information?.map((service, index) => (
                             <div key={index} className='flex flex-col justify-center items-center'>

@@ -22,18 +22,27 @@ const Navbar = ({ toBeActive }: NavbarProps) => {
                         />
                     </div>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow glass bg-black bg-opacity-95 rounded-box w-52">
-                        {
-                            navigation?.map((nav, index) => (
-                                <li key={index} className="py-3">
-                                    <Link href={nav.link} className="text-xl text-white font-semibold">
-                                        {nav.title}
-                                    </Link>
-                                </li>
-                            ))
-                        }
+                    {
+                        navigation?.map((nav, index) => (
+                            nav.link === toBeActive 
+                            ?
+                            <li key={index} className="py-3">
+                                <Link href={nav.link} className="text-xl text-black font-semibold">
+                                    {nav.title}
+                                </Link>
+                            </li>
+                            :
+                            <li key={index} className="py-3">
+                                <Link href={nav.link} className="text-xl text-white font-semibold">
+                                    {nav.title}
+                                </Link>
+                            </li>
+                        ))
+                    }
+                        
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">
+                <a className="btn btn-ghost text-white text-xl">
                     AUOps
                 </a>
             </div>

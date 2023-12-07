@@ -401,3 +401,38 @@ export const team_images = [
         position: "Lead DevOps Engineeer",
     },
 ]
+
+export const hiring_process = [
+    {
+        title: "Select Applications" ,
+        text: "Bachelor’s Degree, Previous Tech Experience, Certifications, Eager to learn new tools "
+    },
+    {
+        title: "Personal Interview",
+        text: "Soft Skills, Technical Skills, Communication"
+    },
+    {
+        title: "Pre-Employment Screening",
+        text: "Identity Verification, Psychological Profile, Reference Check"
+    },
+    {
+        title: "Pre-Employment Test",
+        text: "Advanced Technical test, Candidate is free to be creative and choose a solution using DevOps tools"
+    },
+    {
+        title: "Test Solution Presentation to active DevOps team leaders",
+        text: "Candidate must present the solution and explain how it works and why it is the best solution for the case"
+    },
+    {
+        title: "Training",
+        text: "Once approved, the new employee must attend an intensive training in order to fit the EZOps standards"
+    },
+    {
+        title: "Match with a Team",
+        text: "The DevOps leads will decide which team is going to be a better fit for the new employee"
+    },
+    {
+        title: "Ready to Work",
+        text: "Once the new employee sign the confidentiality agreement, he/she will be ready to be placed on a project and start working"
+    },
+]

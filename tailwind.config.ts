@@ -16,6 +16,7 @@ const config: Config = {
         "gray-100": "#777777",
         "primary-color": {
           default: "#0FABBE",
+          light: "#7bdcb5",
           100: "#FFFFFF"
         },
         "orange-100": "#EF7437",
