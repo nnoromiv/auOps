@@ -30,8 +30,8 @@ const Partner = () => {
     <div className='text-center'>
         <h1 className='text-5xl font-extrabold text-gray-700'>Why you can trust us</h1>
         <div className="flex justify-around items-center mt-12 max-sm:flex-col max-sm:gap-2">
-            <Image src="/aws_partner.png" alt="partner_1" width={300} height={300} />
-            <Image src="/upwork_partner.png" alt="partner_1" width={300} height={300} className='mb-10'/>
+            <Image src="/aws_partner.png" alt="partner_1" width={300} height={300} priority />
+            <Image src="/upwork_partner.png" alt="partner_1" width={300} height={300} className='mb-10'  priority/>
         </div>
         <Link href="/" className='text-xl hover:text-blue-600'>Continue to profile &rarr;</Link>
         <PartnerHero />

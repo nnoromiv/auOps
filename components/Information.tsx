@@ -13,10 +13,10 @@ const Information = () => {
                         <h1 className='text-5xl font-bold mb-10 relative'>Fast and safe. <br /> Perfect!</h1>
                         <p className='relative'>We develop solutions and get your system on air in an automated, quick, and safe way, with the best of quality.</p>
                 </div>
-                    <Image src='/Fas.jpg' alt='fast-and-secure' width={500} height={100} className='relative object-cover'/>
+                    <Image src='/Fas.jpg' alt='fast-and-secure' priority width={500} height={100} className='relative object-cover'/>
             </div>
             <div className="w-full lg:flex max-md:flex-col">
-                <Image src='/Dev.jpg' alt='fast-and-secure' width={500} height={100} className='lg:ml-0 md:ml-auto'/>
+                <Image src='/Dev.jpg' alt='fast-and-secure' priority width={500} height={100} className='lg:ml-0 md:ml-auto'/>
                 <div className='w-full relative text-left py-10 px-20 max-md:px-10 text-white bg-white'>
                     <Image src="/aws.png" width={60} height={60} alt='aws' className='mb-4 relative' />
                         <h1 className='text-black text-5xl font-bold mb-10 relative'>DevOps Experts</h1>
