@@ -1,5 +1,5 @@
 
-import { ClockIcon, HandThumbUpIcon, LockClosedIcon, ScaleIcon, UsersIcon, CodeBracketIcon, UserIcon, WindowIcon } from '@heroicons/react/24/outline'
+import { ClockIcon, HandThumbUpIcon, LockClosedIcon, ScaleIcon, UsersIcon, CodeBracketIcon, UserIcon, WindowIcon, CodeBracketSquareIcon } from '@heroicons/react/24/outline'
 import { ArrowDownLeftIcon } from '@heroicons/react/24/solid'
 
 
@@ -61,4 +61,52 @@ export const partner_information = [
         superScript: '+',
         text: 'Accomplished projects',
     }
+]
+
+export const service_information = [
+    {
+        icon: <UserIcon className='w-20 h-20' color='white' />,
+        title: "Consultancy",
+        text: "We analyze your current system and elaborate a detailed recommendation plan indicating all the requirements, architecture, and tools for you to have more efficiency. The implementation can be performed by EZOps or not. It is up to you. ",
+        buttonTitle: "Connect with us",
+    },
+    {
+        icon: <CodeBracketSquareIcon  className='w-20 h-20' color='white' />,
+        title: "DevOps implementation on demand",
+        text: "It allows you to have a complete and reliable CI/CD solution, ensuring stability to your system. Once we have completed the implementation, you can request our DevOps as a Service assistance so that we can continue to keep your system updated with state-of-the-art innovations. ",
+        buttonTitle: "Service diagram",
+    },
+    {
+        icon: <WindowIcon className='w-20 h-20' color='white' />,
+        title: "DevOps as a continuous service (Packaged)",
+        text: "We can be the extension of your DevOps team or your own team!  We have developed a unique DaaS process to reduce time and cost, using the same technologies and open-source tools as big companies do.",
+        buttonTitle: "Support diagram",
+    }
+]
+
+export const service_offering = [
+    {
+        title: "Customer satisfaction",
+        text: "More than 100 satisfied customers worldwide",
+    },
+    {
+        title: "Top-notch excellence",
+        text: "We use the same technological tools as Amazon, Netflix, and Facebook. Your digital transformation with the technology of great companies.",
+    },
+    {
+        title: "Availability",
+        text: "We work with and in your time zone.",
+    },
+    {
+        title: "24h support",
+        text: "Support for your system 24/7.",
+    },
+    {
+        title: "Agility",
+        text: "Agility in implementing projects and meeting the schedule.",
+    },
+    {
+        title: "Easily fits in your pocket",
+        text: "Costs that fit within your budget.",
+    },
 ]
