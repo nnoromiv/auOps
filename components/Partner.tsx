@@ -11,7 +11,7 @@ const PartnerHero = () => {
             <p className='relative text-white w-[600px] mt-10 text-lg max-sm:w-full'>We are proud to have earned the trust of customers from numerous segments and in countless locations around the world.</p> 
             <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-40  mt-20 max-sm:gap-10 text-white relative'>
                 {
-                    partner_information.map((info, index) => (
+                    partner_information?.map((info, index) => (
                         <div key={index} className='flex flex-col items-center justify-center'>
                             {info.icon}
                             <h1 className='text-8xl mt-5 font-extrabold max-sm:text-6xl'>{info.number}<sup>{info.superScript}</sup></h1>

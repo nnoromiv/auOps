@@ -33,3 +33,371 @@ export const carousel_information = [
     },
 ]
 
+export const images = [
+    {
+        image: "/image_4.png"
+    },
+    {
+        image: "/image_5.png"
+    },
+    {
+        image: "/image_6.png"
+    },
+    {
+        image: "/image_7.png"
+    },
+    {
+        image: "/image_8.png"
+    },
+    {
+        image: "/image_9.png"
+    },
+    {
+        image: "/image_10.png"
+    },
+    {
+        image: "/image_11.png"
+    },
+    {
+        image: "/image_12.png"
+    },
+    {
+        image: "/image_13.png"
+    },
+    {
+        image: "/image_14.png"
+    },
+    {
+        image: "/image_15.png"
+    },
+    {
+        image: "/image_16.png"
+    },
+    {
+        image: "/image_17.png"
+    },
+    {
+        image: "/image_18.png"
+    },
+    {
+        image: "/image_19.png"
+    },
+    {
+        image: "/image_20.png"
+    },
+    {
+        image: "/image_21.png"
+    },
+    {
+        image: "/image_22.png"
+    },
+    {
+        image: "/image_23.png"
+    },
+    {
+        image: "/image_24.png"
+    },
+    {
+        image: "/image_25.png"
+    },
+    {
+        image: "/image_26.png"
+    },
+    {
+        image: "/image_27.png"
+    },
+    {
+        image: "/image_28.png"
+    },
+    {
+        image: "/image_29.png"
+    },
+    {
+        image: "/image_30.png"
+    },
+    {
+        image: "/image_31.png"
+    },
+    {
+        image: "/image_32.png"
+    },
+    {
+        image: "/image_33.png"
+    },
+    {
+        image: "/image_34.png"
+    },
+    {
+        image: "/image_35.png"
+    },
+    {
+        image: "/image_36.png"
+    },
+    {
+        image: "/image_37.png"
+    },
+    {
+        image: "/image_38.png"
+    },
+    {
+        image: "/image_39.png"
+    },
+    {
+        image: "/image_40.png"
+    },
+    {
+        image: "/image_41.png"
+    },
+    {
+        image: "/image_42.png"
+    },
+    {
+        image: "/image_43.png"
+    },
+    {
+        image: "/image_44.png"
+    },
+    {
+        image: "/image_45.png"
+    },
+    {
+        image: "/image_46.png"
+    },
+    {
+        image: "/image_47.png"
+    },
+    {
+        image: "/image_48.png"
+    },
+    {
+        image: "/image_49.png"
+    },
+    {
+        image: "/image_50.png"
+    },
+    {
+        image: "/image_51.png"
+    },
+    {
+        image: "/image_52.png"
+    },
+    {
+        image: "/image_53.png"
+    },
+    {
+        image: "/image_54.png"
+    },
+    {
+        image: "/image_55.png"
+    },
+    {
+        image: "/image_56.png"
+    },
+    {
+        image: "/image_57.png"
+    },
+    {
+        image: "/image_58.png"
+    },
+    {
+        image: "/image_59.png"
+    },
+    {
+        image: "/image_60.png"
+    },
+    {
+        image: "/image_61.png"
+    },
+    {
+        image: "/image_62.png"
+    },
+    {
+        image: "/image_63.png"
+    },
+    {
+        image: "/image_64.png"
+    },
+    {
+        image: "/image_65.png"
+    },
+    {
+        image: "/image_66.png"
+    },
+    {
+        image: "/image_67.png"
+    },
+    {
+        image: "/image_68.png"
+    },
+    {
+        image: "/image_69.png"
+    },
+    {
+        image: "/image_70.png"
+    },
+    {
+        image: "/image_71.png"
+    },
+    {
+        image: "/image_72.png"
+    },
+    {
+        image: "/image_73.png"
+    },
+    {
+        image: "/image_74.png"
+    },
+    {
+        image: "/image_75.png"
+    },
+    {
+        image: "/image_76.png"
+    },
+    {
+        image: "/image_77.png"
+    },
+    {
+        image: "/image_78.png"
+    },
+    {
+        image: "/image_79.png"
+    },
+    {
+        image: "/image_80.png"
+    },
+    {
+        image: "/image_81.png"
+    },
+    {
+        image: "/image_82.png"
+    },
+    {
+        image: "/image_83.png"
+    },
+    {
+        image: "/image_84.png"
+    },
+    {
+        image: "/image_85.png"
+    },
+    {
+        image: "/image_86.png"
+    },
+    {
+        image: "/image_87.png"
+    },
+    {
+        image: "/image_88.png"
+    },
+    {
+        image: "/image_89.png"
+    },
+    {
+        image: "/image_90.png"
+    },
+    {
+        image: "/image_91.png"
+    },
+    {
+        image: "/image_92.png"
+    },
+    {
+        image: "/image_93.png"
+    },
+    {
+        image: "/image_94.png"
+    },
+    {
+        image: "/image_95.png"
+    },
+    {
+        image: "/image_96.png"
+    },
+    {
+        image: "/image_97.png"
+    },
+    {
+        image: "/image_98.png"
+    },
+    {
+        image: "/image_99.png"
+    },
+    {
+        image: "/image_100.png"
+    },
+    {
+        image: "/image_101.png"
+    },
+    {
+        image: "/image_102.png"
+    },
+    {
+        image: "/image_103.png"
+    },
+    {
+        image: "/image_103.png"
+    },
+    {
+        image: "/image_104.png"
+    },
+    {
+        image: "/image_105.png"
+    },
+    {
+        image: "/image_106.png"
+    },
+    {
+        image: "/image_107.png"
+    },
+    {
+        image: "/image_108.png"
+    },
+    {
+        image: "/image_109.png"
+    },
+    {
+        image: "/image_110.png"
+    },
+    {
+        image: "/image_111.png"
+    },
+    {
+        image: "/image_112.png"
+    },
+    {
+        image: "/image_113.png"
+    },
+]
+
+export const team_images = [
+    {
+        image: "/image_115.png",
+        name: "Thiago Mainor",
+        position: "Founder & CEO",
+    },
+    {
+        image: "/image_116.png",
+        name: "Thïas Pinho",
+        position: "CFO",
+    },
+    {
+        image: "/image_117.png",
+        name: "Aline Pratti",
+        position: "DevOps Engineer",
+    },
+    {
+        image: "/image_118.png",
+        name: "Gabriel Souza",
+        position: "DevOps Engineer",
+    },
+    {
+        image: "/image_119.png",
+        name: "Manoela Damasceno",
+        position: "Lead Project Manager",
+    },
+    {
+        image: "/image_120.png",
+        name: "Kenneth Santos",
+        position: "Lead DevOps Engineeer",
+    },
+]

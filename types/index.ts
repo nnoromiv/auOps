@@ -9,14 +9,19 @@ export interface CustomButtonProps {
     icon?: any
 }
 
-interface slidesProps {
+interface textSlidesProps {
     quote: string;
     company: string;
     image: string;
     nextSlide: number;
 }
 
+interface imageSlideProps {
+    image: string;
+}
+
 export type CarouselComponentProps = {
-    slides: slidesProps[],
+    textSlides?: textSlidesProps[],
+    imageSlides?: imageSlideProps[],
     options?: EmblaOptionsType
 }

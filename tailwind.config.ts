@@ -22,7 +22,7 @@ const config: Config = {
         "secondary-color": "#444444",
         "bg-wrapper-100": "#3B668C",
         "bg-wrapper-200": "#282B30",
-        "gradient": "#263336"
+        "gradient": "#263336",
       },
       backgroundImage : {
         'hero-bg': "url('/Hero.jpg')"

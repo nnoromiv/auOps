@@ -1,4 +1,4 @@
-import { Hero, Information, Partner } from '@/components'
+import { Clients, Hero, Information, Partner, Team } from '@/components'
 import React from 'react'
 
 export default function Home() {
@@ -7,6 +7,8 @@ export default function Home() {
       <Hero />
       <Information />
       <Partner />
+      <Clients />
+      <Team />
     </main>
   )
 }

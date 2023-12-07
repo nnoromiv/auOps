@@ -19,7 +19,7 @@ const Navbar = () => {
                     </div>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow glass bg-black bg-opacity-95 rounded-box w-52">
                         {
-                            navigation.map((nav, index) => (
+                            navigation?.map((nav, index) => (
                                 <li key={index} className="py-3">
                                     <Link href={nav.link} className="text-xl text-white font-semibold">
                                         {nav.title}
@@ -36,7 +36,7 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-xl text-secondary-color font-semibold">
                     {
-                        navigation.map((nav, index) => (
+                        navigation?.map((nav, index) => (
                             <li key={index}>
                                 <Link href={nav.link}>
                                     {nav.title}

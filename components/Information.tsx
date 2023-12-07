@@ -26,7 +26,7 @@ const Information = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-28 px-0">
                {
-                information.map((info, index) => (
+                information?.map((info, index) => (
                     <div key={index} className="group card w-full bg-white hover:shadow-xl py-10 px-8 cursor-pointer hover:bg-primary-color-default rounded-md max-sm:p-3">
                     <div className="card-body">
                         <div className="card-title mb-2">

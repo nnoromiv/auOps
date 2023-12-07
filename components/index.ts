@@ -1,10 +1,12 @@
-import CarouselComponent from "./CarouselComponent";
+import {CarouselComponent, ImageCarousel} from "./CarouselComponent";
+import Clients from "./Clients";
 import CustomButton from "./CustomButton";
 import Hero from "./Hero";
 import Information from "./Information";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
 import Partner from "./Partner";
+import Team from "./Team";
 import { information } from "./export";
 
 export { 
@@ -15,5 +17,8 @@ export {
     Information,
     information,
     Partner,
-    CarouselComponent
+    CarouselComponent,
+    Clients,
+    ImageCarousel,
+    Team
 }

@@ -16,11 +16,11 @@ const Hero = () => {
           <CustomButton title='Contact Us' btnType='button' customButtonStyles='rounded-full m-5 bg-primary-color-default text-white border-none px-10'/>
         </div>
       </div>
-      <hr className='bg-white p-0 mt-10'></hr>
+      <div className='divider mt-10'></div>
       <h2 className='mt-16 text-5xl font-extrabold text-white max-sm:text-3xl'>
         Accelerate your digital transformation with DevOps in AWS, Google Cloud, Azure, Kubernetes, on-premise, serverless and more!
       </h2>
-      <CarouselComponent slides={carousel_information}/>
+      <CarouselComponent textSlides={carousel_information} options={{loop: true}}/>
       <div className='lg:hidden md:hidden max-sm:flex max-sm:mb-28'>
           <CustomButton title='Contact Us' btnType='button' customButtonStyles='bg-primary-color-default text-white border-none rounded-full px-10'/>
       </div>
