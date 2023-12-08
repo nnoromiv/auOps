@@ -1,4 +1,5 @@
 import { EmblaOptionsType } from "embla-carousel-react"
+import { MouseEventHandler } from "react";
 
 export interface NavbarProps {
     toBeActive: string,
@@ -10,7 +11,8 @@ export interface CustomButtonProps {
     isDisabled?: boolean,
     btnType?: "button" | "submit",
     title?: string,
-    icon?: any
+    icon?: any,
+    handleClick?: MouseEventHandler<HTMLButtonElement>
 }
 
 interface textSlidesProps {

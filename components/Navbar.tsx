@@ -78,7 +78,7 @@ const Navbar = ({ toBeActive, startIndex }: NavbarProps) => {
                         
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-white text-xl">
+                <a className="btn btn-ghost text-white text-xl" href="/">
                     AUOps
                 </a>
             </div>
