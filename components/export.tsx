@@ -69,18 +69,21 @@ export const service_information = [
         title: "Consultancy",
         text: "We analyze your current system and elaborate a detailed recommendation plan indicating all the requirements, architecture, and tools for you to have more efficiency. The implementation can be performed by EZOps or not. It is up to you. ",
         buttonTitle: "Connect with us",
+        linkUrl: "/contact"
     },
     {
         icon: <CodeBracketSquareIcon  className='w-20 h-20' color='white' />,
         title: "DevOps implementation on demand",
         text: "It allows you to have a complete and reliable CI/CD solution, ensuring stability to your system. Once we have completed the implementation, you can request our DevOps as a Service assistance so that we can continue to keep your system updated with state-of-the-art innovations. ",
         buttonTitle: "Service diagram",
+        linkUrl: "/"
     },
     {
         icon: <WindowIcon className='w-20 h-20' color='white' />,
         title: "DevOps as a continuous service (Packaged)",
         text: "We can be the extension of your DevOps team or your own team!  We have developed a unique DaaS process to reduce time and cost, using the same technologies and open-source tools as big companies do.",
         buttonTitle: "Support diagram",
+        linkUrl: "/"
     }
 ]
 

@@ -49,7 +49,7 @@ const Team = () => {
             }
         
         </div>
-        <CustomButton title='Take a look at the full team.' btnType='button' customButtonStyles='rounded-full my-24  bg-primary-color-default text-white border-none px-24 max-sm:px-10'/>
+        <CustomButton title='Take a look at the full team.' linkURL="/about" btnType='button' customButtonStyles='rounded-full my-24  bg-primary-color-default text-white border-none px-24 max-sm:px-10'/>
     </div>
   )
 }

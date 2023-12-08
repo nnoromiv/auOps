@@ -21,7 +21,7 @@ const Services = () => {
                                 <h1 className='my-5 text-white font-extrabold text-2xl'>{service.title}</h1>
                                 <p className='text-white'>{service.text}</p>
                                 <div className="m-5"></div>
-                                <CustomButton title={service.buttonTitle} btnType='button' customButtonStyles='rounded-full my-10  bg-primary-color-default text-white border-none px-24 max-sm:px-10'/>
+                                <CustomButton title={service.buttonTitle} linkURL={service.linkUrl} btnType='button' customButtonStyles='rounded-full my-10  bg-primary-color-default text-white border-none px-24 max-sm:px-10'/>
                             </div>
                         ))
                     }

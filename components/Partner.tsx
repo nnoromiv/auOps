@@ -20,7 +20,7 @@ const PartnerHero = () => {
                     ) )
                 }
             </div>  
-            <CustomButton title='Case studies' linkURL="/" customButtonStyles='mt-28 relative text-white text-lg px-10 border-none rounded-full bg-primary-color-default'/>  
+            <CustomButton title='Case studies' linkURL="/cases" customButtonStyles='mt-28 relative text-white text-lg px-10 border-none rounded-full bg-primary-color-default'/>  
         </div>
     )
 }

@@ -14,7 +14,7 @@ const Team = () => {
             Looking forward to guaranteeing a competitive advantage?
         </p>
 
-        <CustomButton title='Join us' btnType='button' customButtonStyles='bg-orange-100 text-white border-none rounded-full px-10 mt-20'/>
+        <CustomButton title='Join us' linkURL="/careers" btnType='button' customButtonStyles='bg-orange-100 text-white border-none rounded-full px-10 mt-20'/>
 
         <div className="drawer drawer-end w-[80vw] md:w-[90vw] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-5 gap-y-5 mt-10 m-auto pb-10">
             {

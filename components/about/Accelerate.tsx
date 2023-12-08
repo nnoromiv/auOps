@@ -21,7 +21,7 @@ const Accelerate = () => {
                     ))
                 }                
             </div>
-            <CustomButton title="Send us a message" btnType="button" customButtonStyles="bg-orange-100 text-white border-none rounded-full px-10 mt-20"/>
+            <CustomButton title="Send us a message" linkURL="/contact" btnType="button" customButtonStyles="bg-orange-100 text-white border-none rounded-full px-10 mt-20"/>
         </div>
   )
 }

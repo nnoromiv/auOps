@@ -25,7 +25,7 @@ const CareersHero = () => {
                 }
             </div>
             <div className="mt-32"></div>
-            <Link href="/" className='text-3xl font-semibold' >Linkedin &rarr;</Link>
+            <Link href="https://www.linkedin.com/in/nnorom" target='_blank' className='text-3xl font-semibold' >Linkedin &rarr;</Link>
         </div>
         <div className="bg-[#0A0A0A] m-0 w-full h-[300px] text-center flex justify-center items-center max-sm:px-3" >
             <h1 className='text-white relative text-4xl font-bold max-sm:text-2xl'>If you prefer, send an email to rh@auops.com.br</h1>
