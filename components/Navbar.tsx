@@ -135,11 +135,11 @@ const Navbar = ({ toBeActive, startIndex }: NavbarProps) => {
                             </li>
                         ))
                     }
-                    <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white border-none rounded-full px-10"/>
+                    <CustomButton linkURL="/contact" title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white border-none rounded-full px-10"/>
                 </ul>
             </div>
             <div className="navbar-end lg:hidden">
-                <CustomButton title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white mr-2 border-none rounded-full"/>
+                <CustomButton linkURL="/contact" title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white mr-2 border-none rounded-full"/>
             </div>
         </div>
     </header>
