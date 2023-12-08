@@ -25,7 +25,7 @@ export default function About() {
             <Accelerate />
             <Team />
             <HiringProcess />
-            <Footer />
+            <Footer contactButton={true}/>
           </>
         }
   

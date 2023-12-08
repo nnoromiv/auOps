@@ -11,7 +11,7 @@ const CaseHero = () => {
                 case_studies?.map((cases, index) => (
                     <div key={index} className="card w-full z-0 shadow-xl image-full group cursor-pointer hover:scale-105 ease-in duration-300 delay-150">
                         <figure className='h-[400px]'>
-                            <Image src={cases.image} width={500} height={500} className='w-full object-contain' alt='case' />
+                            <Image src={cases.image} width={500} height={500} className='w-full object-contain' alt='case' priority />
                         </figure>
                         <div className="card-body">
                             <div className="card-title m-auto text-4xl text-white group-hover:text-black">

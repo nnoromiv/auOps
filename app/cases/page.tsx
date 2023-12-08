@@ -20,9 +20,9 @@ export default function Cases() {
         {
           !load &&
           <>
-            <Navbar toBeActive='/cases' />
+            <Navbar toBeActive='/cases' startIndex={2}/>
             <CaseHero />
-            <Footer />
+            <Footer contactButton={true}/>
           </>
         }
   

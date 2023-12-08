@@ -27,6 +27,21 @@ const config: Config = {
       },
       backgroundImage : {
         'hero-bg': "url('/Hero.jpg')"
+      },
+      keyframes : {
+        moveBackground: {
+          '0%' : {
+            transform: 'perspective(500px) rotateX(0deg)',
+            background: '#0FABBE'
+          },
+          '100%' : {
+            transform: ' perspective(500px) rotateX(180deg)',
+            background: '#0FABBE'
+          }
+        }
+      },
+      animation : {
+        moveBackground: 'moveBackground 1s ease-in-out'
       }
     },
   },

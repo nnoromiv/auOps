@@ -1,10 +1,16 @@
 import React from 'react'
 import { CustomButton } from '.'
 
-const Footer = () => {
+type FooterProps = {
+    contactButton: boolean
+}
+
+const Footer = ({contactButton} : FooterProps) => {
   return (
     <footer className="bg-primary-color-default text-primary-color-100 px-20 md:px-10 max-sm:px-2">
-        <CustomButton title="Schedule a call" btnType='button' customButtonStyles='btn-outline rounded-full my-10  text-white hover:scale-100 px-24 max-sm:px-10'/>
+        {
+            contactButton && <CustomButton title="Schedule a call" btnType='button' customButtonStyles='btn-outline rounded-full my-10  text-white hover:scale-100 px-24 max-sm:px-10'/>
+        }
         <div className='footer items-center p-4'>
             <aside  className="items-center grid-flow-col">
                 <p>Copyright © 2023 - All right reserved • AUOps</p>

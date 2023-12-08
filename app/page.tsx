@@ -26,7 +26,7 @@ export default function Home() {
           <Clients />
           <Team />
           <Services />
-          <Footer />
+          <Footer contactButton={true}/>
         </>
       }
 

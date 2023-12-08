@@ -2,6 +2,7 @@
 import { Footer, Navbar } from '@/components'
 import React, { useEffect, useState } from 'react'
 import Loading from '../loading'
+import { CareersHero } from '@/components/careers'
 
 export default function Careers() {
   const [load, setLoad] = useState(true)
@@ -19,8 +20,9 @@ export default function Careers() {
       {
         !load &&
         <>
-          <Navbar toBeActive='/careers' />
-          <Footer />
+          <Navbar toBeActive='/careers' startIndex={2}/>
+          <CareersHero />
+          <Footer contactButton={false}/>
         </>
       }
 

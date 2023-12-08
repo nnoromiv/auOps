@@ -1,5 +1,5 @@
 
-import { ClockIcon, HandThumbUpIcon, LockClosedIcon, ScaleIcon, UsersIcon, CodeBracketIcon, UserIcon, WindowIcon, CodeBracketSquareIcon, TagIcon, EyeIcon, HeartIcon, CheckIcon, ShieldCheckIcon, LightBulbIcon, FlagIcon, LinkIcon, AcademicCapIcon, BookmarkIcon } from '@heroicons/react/24/outline'
+import { ClockIcon, HandThumbUpIcon, LockClosedIcon, ScaleIcon, UsersIcon, CodeBracketIcon, UserIcon, WindowIcon, CodeBracketSquareIcon, TagIcon, EyeIcon, HeartIcon, CheckIcon, ShieldCheckIcon, LightBulbIcon, FlagIcon, LinkIcon, AcademicCapIcon, BookmarkIcon, BookOpenIcon, ComputerDesktopIcon, Cog6ToothIcon } from '@heroicons/react/24/outline'
 import { ArrowDownLeftIcon } from '@heroicons/react/24/solid'
 
 
@@ -165,4 +165,19 @@ export const about_offering = [
         title: "Availability",
         text: "We are 24h on so that customers never go off.",
     },
+]
+
+export const career_information = [
+    {
+        icon: <BookOpenIcon className='w-10 h-10' color='white' />,
+        title: "Project Analyst - Home Office"
+    },
+    {
+        icon: <ComputerDesktopIcon className='w-10 h-10' color='white' />,
+        title: "DevOps Developer - Home Office"
+    },
+    {
+        icon: <Cog6ToothIcon className='w-10 h-10' color='white' />,
+        title: "DevOps Intern - Home Office"
+    }
 ]
