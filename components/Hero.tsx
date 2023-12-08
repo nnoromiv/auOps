@@ -2,10 +2,12 @@ import { CarouselComponent, CustomButton } from '@/components'
 import { carousel_information } from '@/constants'
 import { PlayIcon } from '@heroicons/react/24/outline'
 
-// function handleModal() {
-//   const youtubeVideo = document.getElementById('youtube_video')
-//   youtubeVideo?.showModal()
-// }
+function handleModal() {
+  const popVideo:HTMLElement | null = document.getElementById('popVideo')
+  const youtubeDialog: HTMLDialogElement | null = popVideo as HTMLDialogElement;
+
+  youtubeDialog?.showModal()
+}
 
 const Hero = () => {
   return (
@@ -14,9 +16,9 @@ const Hero = () => {
     <div className="lg:w-[980px] max-sm:w-full flex flex-col relative">
       <div className="flex justify-between items-center lg:mt-20 md:mt-10">
         <div>
-          <CustomButton icon={<PlayIcon className='w-10 h-10 ml-7' color='white'/>} handleClick={() => document.getElementById('youtube_video')?.showModal() }  customButtonStyles='w-[100px] h-[100px] flex items-center justify-center btn-circle mb-4 border-[2px] bg-transparent hover:border-gray-100 hover:bg-transparent'/>
+          <CustomButton icon={<PlayIcon className='w-10 h-10 ml-7' color='white'/>} handleClick={() => handleModal() }  customButtonStyles='w-[100px] h-[100px] flex items-center justify-center btn-circle mb-4 border-[2px] bg-transparent hover:border-gray-100 hover:bg-transparent'/>
           <span className='text-white font-semibold'>Watch the video</span>
-          <dialog id='youtube_video' className="modal cursor-pointer backdrop-blur-xl">
+          <dialog id='popVideo' className="modal cursor-pointer backdrop-blur-xl">
             <div className="modal-box" style={{ maxWidth: "900px", maxHeight: "600px"}}>
             <iframe width="100%" height="100%" className='h-[500px] w-full max-[768px]:h-[400px] max-sm:h-[200px]' src="https://www.youtube.com/embed/3JUsg-WsU9o?si=Sw0JY3u6YUpBoUSe" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
