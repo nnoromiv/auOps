@@ -1,4 +1,3 @@
-import { BookOpenIcon, Cog6ToothIcon, ComputerDesktopIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import React from 'react'
 import { career_information } from '../export'
@@ -9,9 +8,9 @@ const CareersHero = () => {
         <div className="w-full overflow-hidden relative max-sm:pt-10" style={{ backgroundImage: "url('/Hero.jpg')", backgroundRepeat: "no-repeat"}}>
         <div className="absolute inset-0 bg-bg-wrapper-100 bg-opacity-70"></div>
         <div className='relative my-32 mx-20 max-sm:my-10 max-sm:mx-3 text-center text-white'>
-            <h1 className='text-xl font-bold p-5 max-sm:p-0 max-sm:py-5'>Let's work together</h1>
+            <h1 className='text-xl font-bold p-5 max-sm:p-0 max-sm:py-5'>Let&apos;s work together</h1>
             <p className='p-3 w-[50vw] m-auto max-sm:w-full'>
-                We’re currently looking for new talents – If you’re a passionate worker and if you think you have what it takes, take a look at the details to take a chance at our positions.
+                We&apos;re currently looking for new talents - If you&apos;re a passionate worker and if you think you have what it takes, take a look at the details to take a chance at our positions.
             </p>
             <div className='flex flex-col gap-10 mt-20 max-sm:mt-10'>
                 {
