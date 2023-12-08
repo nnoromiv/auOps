@@ -436,3 +436,38 @@ export const hiring_process = [
         text: "Once the new employee sign the confidentiality agreement, he/she will be ready to be placed on a project and start working"
     },
 ]
+
+export const case_studies = [
+    {
+        image: "/image_126.png",
+        title: "Standard"
+    },
+    {
+        image: "/image_122.png",
+        title: "Clinical Trials"
+    },
+    {
+        image: "/image_121.png",
+        title: "Insurance Data Analyst"
+    },
+    {
+        image: "/image_125.png",
+        title: "NFT Platform"
+    },
+    {
+        image: "/image_124.jpg",
+        title: "Financial Loan Case"
+    },
+    {
+        image: "/image_123.jpg",
+        title: "Nearshore Platform Case"
+    },
+    {
+        image: "/image_124.jpg",
+        title: "Learning Management System Platform Case"
+    },
+    {
+        image: "/image_127.jpg",
+        title: "L&D Multi-Platform Case"
+    },
+]
