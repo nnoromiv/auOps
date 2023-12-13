@@ -1,6 +1,5 @@
 
-import { ClockIcon, HandThumbUpIcon, LockClosedIcon, ScaleIcon, UsersIcon, CodeBracketIcon, UserIcon, WindowIcon, CodeBracketSquareIcon, TagIcon, EyeIcon, HeartIcon, CheckIcon, ShieldCheckIcon, LightBulbIcon, FlagIcon, LinkIcon, AcademicCapIcon, BookmarkIcon, BookOpenIcon, ComputerDesktopIcon, Cog6ToothIcon } from '@heroicons/react/24/outline'
-import { ArrowDownLeftIcon } from '@heroicons/react/24/solid'
+import { ClockIcon, HandThumbUpIcon, LockClosedIcon, ArrowDownLeftIcon, Cog8ToothIcon, MagnifyingGlassCircleIcon, ScaleIcon, UsersIcon, CodeBracketIcon, UserIcon, WindowIcon, CodeBracketSquareIcon, TagIcon, EyeIcon, HeartIcon, CheckIcon, ShieldCheckIcon, LightBulbIcon, FlagIcon, LinkIcon, AcademicCapIcon, BookmarkIcon, BookOpenIcon, ComputerDesktopIcon, Cog6ToothIcon, CloudArrowUpIcon, MicrophoneIcon, CloudIcon, UserGroupIcon, DocumentArrowDownIcon, ChatBubbleBottomCenterIcon, InformationCircleIcon, PuzzlePieceIcon, ArchiveBoxArrowDownIcon } from '@heroicons/react/24/outline'
 
 
 export const information = [
@@ -182,5 +181,598 @@ export const career_information = [
     {
         icon: <Cog6ToothIcon className='w-10 h-10' color='white' />,
         title: "DevOps Intern - Home Office"
+    }
+]
+
+export const dynamic_page = [
+    {
+        pageLink: "standard-solution",
+        caseStudyText: "EZOps provides the best AWS architecture available in the market, implemented by all major companies. With a dockerized solution using AWS ECS or AWS EKS, you will have an autoscale, highly available, highly secure, and cost-optimized architecture.",
+        caseImage: "/image_126.png",
+        notableQuoteName: "Thiagor Mainor, CEO",
+        quote: "Every piece of our solution is open source, we are not trying to convince you to buy anything. ",
+        benefit: " Benefits of our Full Implementation",
+        benefitList: [
+            {
+                item: "Ageless and Reliable Infrastructure"
+            },
+            {
+                item: "No Downtime Deployments"
+            },
+            {
+                item: "Automated unexpected scenarios recovery with application failover and rollbacks"
+            },
+            {
+                item: "Microservices: the creation of an automated independent environment for the development"
+            },
+            {
+                item: "Our solution follows the concept of infrastructure as a code"
+            }
+        ],
+        benefitInformation: [
+            {
+                text: 56,
+                title: "IMPLEMENTATIONS"
+            },
+            {
+                text: 4,
+                title: "YEARS OF SUCCESS"
+            },
+            {
+                text: 15,
+                title: "ACTIVE PROJECTS"
+            },
+            {
+                text: 1500,
+                title: "SAVED TIME"
+            }
+        ],
+        nutShell: "EZOps Method in a Nutshell",
+        nutShellP: "Keeping in mind that each Startup has its singularity, we are trained and prepared to analyze and find a better and particular solution for each project. EZOps implementation process is quite simple and very effective. Based on a quick initial assessment, EZOps is able to develop, implement, and train your developers to manage the new DevOps environment. Everything extremely fast and optimized. ",
+        serviceTitle: "Consulting Service",
+        serviceText: " After many years working with startups we are aware of your concerns, therefore our consulting procedure is also an exchange of experiences. ",
+        useCases: [
+            {
+                icon: <CloudArrowUpIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Scaling applications & Dockerizing"
+            },
+            {
+                icon: <UserGroupIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Expert AWS guidance and implementation"
+            },
+            {
+                icon: <MicrophoneIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Microservices design"
+            },
+            {
+                icon: <CloudIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Cloud Migration"
+            },
+            {
+                icon: <DocumentArrowDownIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Database tweaking and optimization"
+            },
+            {
+                icon: <ChatBubbleBottomCenterIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Blue/green deployments"
+            },
+            {
+                icon: <InformationCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Infrastructure-as-Code"
+            },
+            {
+                icon: <MagnifyingGlassCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Management"
+            },
+            {
+                icon: <PuzzlePieceIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "CI/CD pipeline implementation "
+            },
+            {
+                icon: <Cog8ToothIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Re-architecture or Infrastructure design"
+            },
+        ],
+    },
+    {
+        pageLink: "clinical-trials",
+        caseStudyText: "EZOps provided a reliable and performant infraestructure for randomization and clinical trials supply management systems.Ensuring performance in real-time monitoring diagnostics. ",
+        caseImage: "/image_122.png",
+        notableQuoteName: "Customer Testimonial ",
+        quote: "Friendly, efficient, knowledgeable staff. Responsiveness and flexibility.",
+        benefit: "Implementation Benefits",
+        benefitList: [
+            {
+                item: "Reliable Infrastructure "
+            },
+            {
+                item: "No Downtime Deployments"
+            },
+            {
+                item: "Automated unexpected scenarios recovery with application failover and rollbacks"
+            },
+            {
+                item: "Microservices: the creation of an automated independent environment for the development"
+            },
+            {
+                item: "Our solution follows the concept of infrastructure as a code"
+            },
+            {
+                item: "Alerts to develop team and users"
+            }
+        ],
+        benefitInformation: [],
+        nutShell: "",
+        nutShellP: "",
+        serviceTitle: "",
+        serviceText: "",
+            useCases: [
+            {
+                icon: <CloudArrowUpIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Scaling applications & Dockerizing"
+            },
+            {
+                icon: <UserGroupIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Expert AWS guidance and implementation"
+            },
+            {
+                icon: <MicrophoneIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Microservices design"
+            },
+            {
+                icon: <CloudIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Cloud Migration"
+            },
+            {
+                icon: <DocumentArrowDownIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Database tweaking and optimization"
+            },
+            {
+                icon: <ChatBubbleBottomCenterIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Blue/green deployments"
+            },
+            {
+                icon: <InformationCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Infrastructure-as-Code"
+            },
+            {
+                icon: <MagnifyingGlassCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Management"
+            },
+            {
+                icon: <PuzzlePieceIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "CI/CD pipeline implementation "
+            },
+            {
+                icon: <Cog8ToothIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Re-architecture or Infrastructure design"
+            },
+        ],
+    },
+    {
+        pageLink: "insurance-data-analyst",
+        caseStudyText: "EZOps has provided security, scalability and performance for ingesting, digitize and centralize data.        ",
+        caseImage: "/image_121.png",
+        notableQuoteName: "",
+        quote: "",
+        benefit: " Benefits of our Full Implementation",
+        benefitList: [
+            {
+                item: "Private and secure infraestructure"
+            },
+            {
+                item: "Infrastructure as a code"
+            },
+            {
+                item: "Containers auto scalable and monitored"
+            },
+            {
+                item: "High-performance databases"
+            },
+            {
+                item: "Continuous Delivery and Deployment integrated with Slack and GitHub"
+            },
+            {
+                item: "Developers automated tests and releases integrated with their main tools."
+            }
+        ],
+        benefitInformation: [],
+        nutShell: "",
+        nutShellP: "",
+        serviceTitle: "",
+        serviceText: "",
+        useCases: [
+            {
+                icon: <CloudArrowUpIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Scaling applications & Dockerizing"
+            },
+            {
+                icon: <UserGroupIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Expert AWS guidance and implementation"
+            },
+            {
+                icon: <MicrophoneIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Microservices design"
+            },
+            {
+                icon: <CloudIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Cloud Migration"
+            },
+            {
+                icon: <DocumentArrowDownIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Database tweaking and optimization"
+            },
+            {
+                icon: <ChatBubbleBottomCenterIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Blue/green deployments"
+            },
+            {
+                icon: <InformationCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Infrastructure-as-Code"
+            },
+            {
+                icon: <MagnifyingGlassCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Management"
+            },
+            {
+                icon: <PuzzlePieceIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "CI/CD pipeline implementation "
+            },
+            {
+                icon: <Cog8ToothIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Re-architecture or Infrastructure design"
+            },
+        ],
+    },
+    {
+        pageLink: "nft-platform",
+        caseStudyText: "EZOps provided a NFT platform infrastructure with secure, auto scalability for high performance and low latency, allowing the best experience to users integrates to their wallets.        ",
+        caseImage: "/image_125.png",
+        notableQuoteName: "",
+        quote: "",
+        benefit: " Benefits of our Full Implementation",
+        benefitList: [
+            {
+                item: "Secure Infrastructure and Auto Scalability"
+            },
+            {
+                item: "Low latency, Frontend with AWS Cloudfront"
+            },
+            {
+                item: "Backend managed by AWS Auto Scale and Elastic Container Service in private VPC."
+            },
+            {
+                item: "IaC with AWS Cloudformation"
+            },
+            {
+                item: "AWS Relational Database"
+            },
+            {
+                item: "CI/CD integrated with GitLab and AWS CodePipeline"
+            },
+        ],
+        benefitInformation: [],
+        nutShell: "",
+        nutShellP: "",
+        serviceTitle: "",
+        serviceText: "",
+        useCases: [
+            {
+                icon: <CloudArrowUpIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Scaling applications & Dockerizing"
+            },
+            {
+                icon: <UserGroupIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Expert AWS guidance and implementation"
+            },
+            {
+                icon: <MicrophoneIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Microservices design"
+            },
+            {
+                icon: <CloudIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Cloud Migration"
+            },
+            {
+                icon: <DocumentArrowDownIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Database tweaking and optimization"
+            },
+            {
+                icon: <ChatBubbleBottomCenterIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Blue/green deployments"
+            },
+            {
+                icon: <InformationCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Infrastructure-as-Code"
+            },
+            {
+                icon: <MagnifyingGlassCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Management"
+            },
+            {
+                icon: <PuzzlePieceIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "CI/CD pipeline implementation "
+            },
+            {
+                icon: <Cog8ToothIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Re-architecture or Infrastructure design"
+            },
+        ],
+    },
+    {
+        pageLink: "financial-loan-case",
+        caseStudyText: "EZOps provided a highly secure infrastructure, supporting responsive pages, secure business data and applications for customers, and automated delivery for the development team. ",
+        caseImage: "/image_124.jpg",
+        notableQuoteName: "",
+        quote: "",
+        benefit: " Benefits of our Full Implementation",
+        benefitList: [
+            {
+                item: "Frontend with faster response by CDN AWS Cloudfront."
+            },
+            {
+                item: "Backend managed by AWS Auto Scale and Elastic Container Service in VPC."
+            },
+            {
+                item: "Security for apps and database in private subnets, specific firewall rules."
+            },
+            {
+                item: "Releases completely automated by environments structured by branches"
+            },
+        ],
+        benefitInformation: [],
+        nutShell: "",
+        nutShellP: "",
+        serviceTitle: "",
+        serviceText: "",
+        useCases: [
+            {
+                icon: <CloudArrowUpIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Scaling applications & Dockerizing"
+            },
+            {
+                icon: <UserGroupIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Expert AWS guidance and implementation"
+            },
+            {
+                icon: <MicrophoneIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Microservices design"
+            },
+            {
+                icon: <CloudIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Cloud Migration"
+            },
+            {
+                icon: <DocumentArrowDownIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Database tweaking and optimization"
+            },
+            {
+                icon: <ChatBubbleBottomCenterIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Blue/green deployments"
+            },
+            {
+                icon: <InformationCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Infrastructure-as-Code"
+            },
+            {
+                icon: <MagnifyingGlassCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Management"
+            },
+            {
+                icon: <PuzzlePieceIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "CI/CD pipeline implementation "
+            },
+            {
+                icon: <Cog8ToothIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Re-architecture or Infrastructure design"
+            },
+        ],
+    },
+    {
+        pageLink: "nearshore-platform-case",
+        caseStudyText: "A global nearshore platform needs high availability and reliability for it's customers and it's outsourced network. Ezops provided it and more: auto scaling according to growth, monitoring and continuous delivery for the development team.",
+        caseImage: "/image_123.jpg",
+        notableQuoteName: "",
+        quote: "",
+        benefit: " Benefits of our Full Implementation",
+        benefitList: [
+            {
+                item: "GCP Kubernetes Engine for high availability and auto scalability."
+            },
+            {
+                item: "Prometheus monitoring infrastructure, applications and logs to visualization on Grafana."
+            },
+            {
+                item: "Dev engineers autonomy with CI/CD Azure DevOps and Azure Pipelines."
+            },
+            {
+                item: "Security in districts infrastructure environments changes and RTO with Makefile and Terraform"
+            },
+        ],
+        benefitInformation: [],
+        nutShell: "",
+        nutShellP: "",
+        serviceTitle: "",
+        serviceText: "",
+        useCases: [
+            {
+                icon: <CloudArrowUpIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Scaling applications & Dockerizing"
+            },
+            {
+                icon: <UserGroupIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Expert AWS guidance and implementation"
+            },
+            {
+                icon: <MicrophoneIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Microservices design"
+            },
+            {
+                icon: <CloudIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Cloud Migration"
+            },
+            {
+                icon: <DocumentArrowDownIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Database tweaking and optimization"
+            },
+            {
+                icon: <ChatBubbleBottomCenterIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Blue/green deployments"
+            },
+            {
+                icon: <InformationCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Infrastructure-as-Code"
+            },
+            {
+                icon: <MagnifyingGlassCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Management"
+            },
+            {
+                icon: <PuzzlePieceIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "CI/CD pipeline implementation "
+            },
+            {
+                icon: <Cog8ToothIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Re-architecture or Infrastructure design"
+            },
+        ],
+    },
+    {
+        pageLink: "learning-management-system-platform-case",
+        caseStudyText: "Leveraging LMS platform, allowing your growth with high availability and security.",
+        caseImage: "/image_124.jpg",
+        notableQuoteName: "",
+        quote: "",
+        benefit: " Benefits of our Full Implementation",
+        benefitList: [
+            {
+                item: "Auto scalability with Elastic Container Service, applications as microservices."
+            },
+            {
+                item: "Continuous delivery with GitHub Actions, CodePipeline and CodeBuild."
+            },
+            {
+                item: "Infra as Code with GitHub and Cloudformation."
+            },
+            {
+                item: "Security with new VPC, resources in private subnet and secret manager."
+            },
+        ],
+        benefitInformation: [],
+        nutShell: "",
+        nutShellP: "",
+        serviceTitle: "",
+        serviceText: "",
+        useCases: [
+            {
+                icon: <CloudArrowUpIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Scaling applications & Dockerizing"
+            },
+            {
+                icon: <UserGroupIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Expert AWS guidance and implementation"
+            },
+            {
+                icon: <MicrophoneIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Microservices design"
+            },
+            {
+                icon: <CloudIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Cloud Migration"
+            },
+            {
+                icon: <DocumentArrowDownIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Database tweaking and optimization"
+            },
+            {
+                icon: <ChatBubbleBottomCenterIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Blue/green deployments"
+            },
+            {
+                icon: <InformationCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Infrastructure-as-Code"
+            },
+            {
+                icon: <MagnifyingGlassCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Management"
+            },
+            {
+                icon: <PuzzlePieceIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "CI/CD pipeline implementation "
+            },
+            {
+                icon: <Cog8ToothIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Re-architecture or Infrastructure design"
+            },
+        ],
+    },
+    {
+        pageLink: "learning-and-development-multi-platform-case",
+        caseStudyText: "Leverage the L&D platform and it's solutions based on multiple apps, cost reduction, security and quick updates.",
+        caseImage: "/image_127.jpg",
+        notableQuoteName: "",
+        quote: "",
+        benefit: " Benefits of our Full Implementation",
+        benefitList: [
+            {
+                item: "Reduced of costs with centralized cluster managing multi-tier applications."
+            },
+            {
+                item: "Resources being administrated by DevOps especialist securely with IaC."
+            },
+            {
+                item: "Security with new apparted VPC, WAF for frontends, Security Hub managing all resources."
+            },
+            {
+                item: "Platform grow boosted with auto scalability and fast deploys"
+            },
+        ],
+        benefitInformation: [],
+        nutShell: "",
+        nutShellP: "",
+        serviceTitle: "",
+        serviceText: "",
+        useCases: [
+            {
+                icon: <CloudArrowUpIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Scaling applications & Dockerizing"
+            },
+            {
+                icon: <UserGroupIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Expert AWS guidance and implementation"
+            },
+            {
+                icon: <MicrophoneIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Microservices design"
+            },
+            {
+                icon: <CloudIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Cloud Migration"
+            },
+            {
+                icon: <DocumentArrowDownIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Database tweaking and optimization"
+            },
+            {
+                icon: <ChatBubbleBottomCenterIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Blue/green deployments"
+            },
+            {
+                icon: <InformationCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Infrastructure-as-Code"
+            },
+            {
+                icon: <MagnifyingGlassCircleIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Management"
+            },
+            {
+                icon: <PuzzlePieceIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "CI/CD pipeline implementation "
+            },
+            {
+                icon: <Cog8ToothIcon className='w-20 h-20' color='#0FABBE' />,
+                text: "Re-architecture or Infrastructure design"
+            },
+        ],
     }
 ]

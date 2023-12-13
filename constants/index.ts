@@ -440,34 +440,47 @@ export const hiring_process = [
 export const case_studies = [
     {
         image: "/image_126.png",
-        title: "Standard"
+        title: "Standard Solution",
+        linkUrl: "standard-solution"
     },
     {
         image: "/image_122.png",
-        title: "Clinical Trials"
+        title: "Clinical Trials",
+        linkUrl: "clinical-trials"
     },
     {
         image: "/image_121.png",
-        title: "Insurance Data Analyst"
+        title: "Insurance Data Analyst",
+        linkUrl: "insurance-data-analyst"
     },
     {
         image: "/image_125.png",
-        title: "NFT Platform"
+        title: "NFT Platform",
+        linkUrl: "nft-platform"
+
     },
     {
         image: "/image_124.jpg",
-        title: "Financial Loan Case"
+        title: "Financial Loan Case",
+        linkUrl: "financial-loan-case"
     },
     {
         image: "/image_123.jpg",
-        title: "Nearshore Platform Case"
+        title: "Nearshore Platform Case",
+        linkUrl: "nearshore-platform-case"
     },
     {
         image: "/image_124.jpg",
-        title: "Learning Management System Platform Case"
+        title: "Learning Management System Platform Case",
+        linkUrl: "learning-management-system-platform-case"
     },
     {
         image: "/image_127.jpg",
-        title: "L&D Multi-Platform Case"
+        title: "Learning and Development Multi-Platform Case",
+        linkUrl: "learning-and-development-multi-platform-case"
     },
 ]
+ 
+export const case_studies_links = ["standard-solution","clinical-trials","insurance-data-analyst","nft-platform","financial-loan-case","nearshore-platform-case","learning-management-system-platform-case","learning-and-development-multi-platform-case"]
+
+

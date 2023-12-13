@@ -24,5 +24,5 @@ export {
     ImageCarousel,
     Team,
     Services,
-    Footer
+    Footer,
 }

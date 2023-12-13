@@ -5,8 +5,10 @@ import { navigation } from "@/constants"
 import Link from "next/link"
 import { useState } from "react"
 import { NavbarProps } from "@/types";
+import { useRouter } from "next/navigation";
 
 const Navbar = ({ toBeActive, startIndex }: NavbarProps) => {
+    const router = useRouter()
     const [active, setActive] = useState("")
 
   return (
@@ -135,8 +137,8 @@ const Navbar = ({ toBeActive, startIndex }: NavbarProps) => {
                             </li>
                         ))
                     }
-                    <CustomButton linkURL="/contact" title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white border-none rounded-full px-10"/>
-                </ul>
+                </ul>                
+                <CustomButton linkURL="/contact" title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white border-none rounded-full px-10"/>
             </div>
             <div className="navbar-end lg:hidden">
                 <CustomButton linkURL="/contact" title="Schedule a Call" btnType="button" customButtonStyles="bg-orange-100 text-white mr-2 border-none rounded-full"/>
