@@ -120,7 +120,7 @@ const ContactUs = () => {
                     </label>
                     {
                         (
-                            values.email === "" || values.name ===  "" || values.message === ""
+                            values.email === "" || values.name ===  "" || values.message === "" || errors.message
                         ) 
                         ?
                         (
